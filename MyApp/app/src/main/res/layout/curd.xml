@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".curd"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_margin="15sp"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_margin="15sp"/>
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="448dp"
+        android:layout_margin="15sp"/>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="448dp"
+        android:layout_margin="15sp"/>
+</LinearLayout>
